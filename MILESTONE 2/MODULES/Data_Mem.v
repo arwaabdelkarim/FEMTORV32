@@ -1,19 +1,19 @@
 `timescale 1ns / 1ps
-/******************************************************************* 
+/*****************************************************************************************
 * 
 * Module: Data_Mem.v 
 * Project: Arch_proj1 
 * Author: Arwa Abdelkarim arwaabdelkarim@aucegypt.edu
           Farida Bey      farida.bey@aucegypt.edu
           
-* Description: Recieves an adress from the ALU, if the read signal 
-               is on, the function will use the given func3 to 
-               read the required number of bytes and whether to sign 
-               extend or not, if the MemWrite signal is on it will 
-               use the funct3 to write the required number of bits.
+* Description: The Data_Mem module simulates data memory, allowing read and write 
+               operations based on address, MemRead, and MemWrite signals. The func3 
+               code specifies the data size (byte, half-word, word) and sign-extension 
+               for loads, while writes store either 1, 2, or 4 bytes into memory based 
+               on the same func code.
 * 
 * Change history: 25/10/2024 Created module at home
-**********************************************************************/
+******************************************************************************************/
 
 module Data_Mem(
     input clk,

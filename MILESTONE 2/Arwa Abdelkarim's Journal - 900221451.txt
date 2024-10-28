@@ -1,0 +1,11 @@
+October 21, 7:00 pm: Farida and I meet to discuss the datapath of the single-cycle processor, ensuring we include all required instructions.
+October 22, 1:00 pm: We divide the modules between us based on our defined datapath. I take on the Instruction Memory (Inst_Mem), Control Unit (CU), Branch Control Unit (Branch_CU), Immediate Generator (Imm_Gen), and Data Memory (Data_Mem).
+October 23, 2024, 12:00 pm: I start implementing the Inst_Mem module, focusing on storing and retrieving instructions.
+October 24, 2024, 3:00 pm: Completed the Inst_Mem module and begin testing it to verify that the instruction fetching is correct.
+October 25, 2024, 11:00 am: I begin working on the Control Unit (CU) to decode the instructions and generate control signals for the CPU.
+October 26, 2024, 1:00 pm: Finished implementing the CU and start testing it with the instruction set to ensure it generates the correct control signals.
+October 27, 2024, 10:00 am: Start developing the Branch Control Unit (Branch_CU) to handle branching conditions based on the instruction execution results.
+October 27, 2024, 4:00 pm: I complete the Branch_CU and run tests to check the correct operation of branch instructions.
+October 28, 2024, 9:00 am: I implement the Immediate Generator (Imm_Gen) module to generate immediate values from instructions.
+October 28, 2024, 2:00 pm: Finished the Data Memory (Data_Mem) module, focusing on read and write functionalities based on control signals.
+October 28, 2024, 5:00 pm: Both Farida and I finalize the testing of the CPU, debugging any issues that arise from our combined modules.

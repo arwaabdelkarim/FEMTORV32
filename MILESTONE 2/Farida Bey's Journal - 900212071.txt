@@ -1,0 +1,9 @@
+October 21, 7:00 pm: Arwa and I meet to discuss the datapath of the single-cycle processor, ensuring we include all required instructions.
+October 22, 1:00 pm: We divide the modules between us based on our defined datapath. I take on the Arithmatic Logic Unit (ALU), ALU Control Unit (ALU_CU), TOP module (CPU).
+October 24, 9:45 am: I start working on the ALU module, focusing on the basic arithmetic and logic operations required for the single-cycle RISC-V processor.
+October 25, 2:30 pm: Completed the ALU module and begin testing it to ensure all operations are functioning correctly.
+October 26, 9:00 am: I begin implementing the ALU Control Unit (ALU_CU) to manage ALU operations based on the opcode and funct3 signals.
+October 26, 3:00 pm: I test the ALU_CU with various opcode and funct3 combinations to confirm its functionality.
+October 27, 1:00 pm: Start working on the Register File (Reg_File) module. I implement the register read and write functionalities, and run tests to ensure data is being read and written correctly.
+October 28, 3:30 pm: I integrate the previously completed modules into the CPU top module and begin wiring everything together.
+October 28, 5:00 pm: Both Arwa and I finalize the testing of the CPU. We debug and optimize the combined modules, ensuring seamless communication between them.
