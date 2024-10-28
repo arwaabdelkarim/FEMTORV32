@@ -64,7 +64,7 @@ module CPU(
     wire [31:0] Immediate;
     wire [31:0] ALU_out;
     
-    wire [31:0] Mem_out;
+    wire [31:0] Data_out;
     reg [31:0] Wr_data;
 //    wire PC_Branch;
 //    wire PC_4;
@@ -84,7 +84,7 @@ module CPU(
     
     always@(*) begin
         case(RegWriteSel)
-            2'b00: Wr_data = Mem_out;
+            2'b00: Wr_data = Data_out; //Mem_out;
             2'b01: Wr_data = ALU_out;
             2'b10: Wr_data = PC + 4;
             2'b11: Wr_data = Immediate;
