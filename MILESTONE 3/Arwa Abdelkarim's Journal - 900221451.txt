@@ -1,0 +1,7 @@
+November 7, 6:45 PM: Implemented branching instruction functionality.
+November 10, 1:30 PM: Implemented I-type instruction execution.
+November 10, 5:10 PM: Implemented jalr and jal instructions.
+November 11, 4:20 PM: Continued work on I-type instruction execution.
+November 12, 1:40 PM: Finalized branching instruction functionality, including the hazard detection unit.
+November 12, 3:55 PM: Started work on datapath top module design with Farida.
+November 13, 7:30 PM: Completed datapath top module design with Farida, integrating both hazard and forwarding units.

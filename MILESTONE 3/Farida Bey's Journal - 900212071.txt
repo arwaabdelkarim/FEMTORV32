@@ -1,0 +1,9 @@
+November 6, 10pm: Started The pipelined datapath to use as a guide.
+November 7, 2:15PM: Completed implementation of R-type instruction execution.
+November 7, 4:30PM: Finished implementing store instruction functionality.
+November 10, 3:50PM: Completed implementation of load instruction functionality.
+November 11, 2:00PM: Finished implementing AUIPC instruction.
+November 11, 6:30PM: Completed implementation of LUI instruction.
+November 12, 3:55PM: Began work on the design of the datapath top module with Arwa.
+November 12, 5:45PM: Implemented the forwarding unit in the datapath.
+November 13, 7:30PM: Finalized the datapath top module design with Arwa, integrating both hazard and forwarding units.
