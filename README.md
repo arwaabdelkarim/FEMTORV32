@@ -1,8 +1,7 @@
 # FEMTORV32
 ## License
 Copyright 2024 Arwa Abdelkarim  
-Copyright 2024 Rana Taher  
-Copyright 2024 Yasmina Mahdy  
+Copyright 2024 Farida Bey
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
