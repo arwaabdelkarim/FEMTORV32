@@ -1,4 +1,14 @@
 # FEMTORV32
+##Project Overview
+This repository contains the implementation of a RV32I RISC-V processor designed for deployment and testing on the Nexys A7 FPGA trainer kit. The project aims to build a pipelined CPU with correct hazard handling and efficient resource usage, adhering to the RV32I base integer instruction set specification.
+
+##Core Features
+
+
+
+
+
+
 ## License
 Copyright 2024 Arwa Abdelkarim  
 Copyright 2024 Farida Bey
